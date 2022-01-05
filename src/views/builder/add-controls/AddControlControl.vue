@@ -34,7 +34,6 @@ export default {
          * Open the sidebar to add control yeah yeah
          */
         openAddControl() {
-            console.log("test");
             this.$formEvent.$emit(
                 EVENT_CONSTANTS.BUILDER.SIDEBAR.OPEN,
                 this.runnerId
